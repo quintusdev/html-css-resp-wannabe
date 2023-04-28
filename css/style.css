@@ -138,10 +138,27 @@ img {
 
     /* FINE TABLET RESPONSIVE */
 
+
+
     /* MOBILE RESPONSIVE */
     @media screen and (max-width: 480px){
+        .row {
+           flex-direction: column;
+           flex-wrap: wrap;
+           align-items: center;
+        }
+
         .col {
-            
+            width: 100%;
+        }
+
+        .why-us{
+            background-color: black;
+        }
+
+        .why-us .col-left, .why-us .col-right, .lessons .col, .steps .col {
+            width: 100%;
+            padding: 40px 0;
         }
     }
 
