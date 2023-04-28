@@ -160,11 +160,14 @@ img {
             margin: 0;
             padding: 40px 0;
         }
+
         h3 {
             font-size: 38px;
         }
 
-
+        p {
+            font-size: 1.2rem;
+        }
     }
 
     /* FINE MOBILE RESPONSIVE */
